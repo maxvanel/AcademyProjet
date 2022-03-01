@@ -1,0 +1,4 @@
+2022-03-01 12:25:51,210 - com.ChanelProject.utils.AbstractPage - INFO - ^je navigue sur le site chanel$
+2022-03-01 12:26:05,488 - com.ChanelProject.utils.AbstractPage - INFO - ^je verifie si le site saffiche$
+2022-03-01 12:26:32,769 - com.ChanelProject.utils.AbstractPage - INFO - The quantity is equal to : ROUGE ALLURE
+2022-03-01 12:26:33,120 - com.ChanelProject.utils.AbstractPage - INFO - The quantity is equal to : 1

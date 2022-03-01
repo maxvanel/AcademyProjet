@@ -1,0 +1,176 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3601699800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Acheter Produit Rouge Allure",
+        "description": "",
+        "id": "site-chanel---panier-rouge-allure;acheter-produit-rouge-allure",
+        "after": [
+          {
+            "result": {
+              "duration": 8855600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14436802400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "je navigue sur le site chanel",
+            "match": {
+              "location": "FirstTestStepsDefinitions.je_navigue_sur_le_site_chanel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50852200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "je verifie si le site saffiche",
+            "match": {
+              "location": "FirstTestStepsDefinitions.je_verifie_si_le_site_saffiche()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209059000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Accès à la catégorie Makeup",
+            "match": {
+              "location": "SecondTestStepsDefinitions.accèsÀLaCatégorieMakeup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2412053300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "je choisie le categorie Lipstick",
+            "match": {
+              "location": "SecondTestStepsDefinitions.jeChoisieLeCategorieLipstick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5351259800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "je Clique sur le produit ROUGE ALLURE",
+            "match": {
+              "location": "SecondTestStepsDefinitions.jeCliqueSurLeProduitROUGEALLURE()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16199430800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "j Ajoute le produit au panier",
+            "match": {
+              "location": "SecondTestStepsDefinitions.jAjouteLeProduitAuPanier()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3047470800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verifie si le Nom de produit \"ROUGE ALLURE\" est dans le panier",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ROUGE ALLURE",
+                  "offset": 30
+                }
+              ],
+              "location": "SecondTestStepsDefinitions.verifieSiLeNomDeProduitEstDansLePanier(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 349963300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verifie la quantité de produit  est egal \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 42
+                }
+              ],
+              "location": "SecondTestStepsDefinitions.verifieLaQuantitéDeProduitEstEgal(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76158700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verifie le total panier est égal au prix du produit \"$45.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$45.00",
+                  "offset": 53
+                }
+              ],
+              "location": "SecondTestStepsDefinitions.verifieLeTotalPanierEstÉgalAuPrixDuProduit(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Site Chanel - Panier Rouge Allure",
+    "description": "ETQ utilisateur j achete le produit Rouge Allure",
+    "id": "site-chanel---panier-rouge-allure",
+    "keyword": "Feature",
+    "uri": "SearchProduct.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@product-makup"
+      }
+    ]
+  }
+]

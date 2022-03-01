@@ -1,0 +1,16 @@
+com\ChanelProject\utils\Setup.class
+com\ChanelProject\firstTest\stepsDefinitions\FirstTestStepsDefinitions.class
+com\ChanelProject\utils\InternetExplorerDriver.class
+com\ChanelProject\utils\DriverManager.class
+com\ChanelProject\firstTest\pages\FirstTestPage.class
+com\ChanelProject\TestRunner.class
+com\ChanelProject\utils\DriverManagerFactory$1.class
+com\ChanelProject\utils\AbstractPage.class
+com\ChanelProject\secondTest\pages\SecondTestPage.class
+com\ChanelProject\utils\EdgeDriverManager.class
+com\ChanelProject\secondTest\stepsDefinitions\SecondTestStepsDefinitions.class
+com\ChanelProject\utils\DriverManagerFactory.class
+com\ChanelProject\utils\ChromeDriverManager.class
+com\ChanelProject\utils\FirefoxDriverManager.class
+com\ChanelProject\utils\CommonMethods.class
+com\ChanelProject\utils\DriverType.class

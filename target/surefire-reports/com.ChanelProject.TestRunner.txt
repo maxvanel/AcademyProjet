@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.ChanelProject.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 54.823 s <<< FAILURE! - in com.ChanelProject.TestRunner
+And verifie le total panier est égal au prix du produit "$45.00"(Scenario: Acheter Produit Rouge Allure)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError
+
+Scenario: Acheter Produit Rouge Allure  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError
+
