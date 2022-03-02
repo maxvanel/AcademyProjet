@@ -20,7 +20,7 @@ public class SecondTestPage {
 	}
 
 final static String MAKEUP_CATEGORY = "makeup";
-final static String LIPSTICK = "//a[@data-linkname=\"Lipstick\"]";
+final static String LIPSTICK = "//header/div[1]/div[1]/div[2]/nav[1]/ul[2]/li[3]/div[1]/div[1]/div[2]/div[4]/div[2]/ul[1]/li[1]/a[1]";
 final static String ROUGE_ALLURE = "//body/main[@id='main']/div[3]/div[2]/div[2]/div[1]/div[2]/div[1]/div[6]/article[1]/div[2]/div[1]/p[1]/a[1]/span[2]";
 final static String ADD_TO_BAG_BUTTON = "pos-cnc-btn";
 final static String REVIEW_BAG_BUTTON = "//span[@data-test=\"btnReviewBagAndContinue\"]";

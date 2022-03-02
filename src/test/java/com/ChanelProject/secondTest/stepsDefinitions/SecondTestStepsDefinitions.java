@@ -41,6 +41,8 @@ public class SecondTestStepsDefinitions extends CommonMethods{
 		commonMethods.scrollerBottomdown(1000);
 		commonMethods.explicitWaitVisibility(20, SecondTestPage.lipstik);
 		secondTestPage.click_on_lipstick();
+		
+		//////////////////////////////////////////////
 
 	}
 
