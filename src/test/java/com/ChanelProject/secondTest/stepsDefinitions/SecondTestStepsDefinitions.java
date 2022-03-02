@@ -38,7 +38,7 @@ public class SecondTestStepsDefinitions extends CommonMethods{
 
 	@When("^je choisie le categorie Lipstick$")
 	public void jeChoisieLeCategorieLipstick() throws Throwable {
-		commonMethods.scrollerBottomdown(800);
+		commonMethods.scrollerBottomdown(1000);
 		commonMethods.explicitWaitVisibility(20, SecondTestPage.lipstik);
 		secondTestPage.click_on_lipstick();
 
