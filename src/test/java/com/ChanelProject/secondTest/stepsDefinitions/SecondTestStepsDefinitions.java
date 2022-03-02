@@ -33,9 +33,7 @@ public class SecondTestStepsDefinitions extends CommonMethods{
 	@When("^Accès à la catégorie Makeup$")
 	public void accèsÀLaCatégorieMakeup() throws Throwable {
 	    
-		
 		secondTestPage.click_on_makeup_category();
-		commonMethods.explicitWaitVisibility(20, SecondTestPage.lipstik);
 	}
 
 	@When("^je choisie le categorie Lipstick$")
