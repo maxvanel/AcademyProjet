@@ -1,4 +1,4 @@
-@product-makup
+@product-makup @CHA-1
 Feature: Site Chanel - Panier Rouge Allure
   ETQ utilisateur j achete le produit Rouge Allure
 
