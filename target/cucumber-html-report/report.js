@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 10243285199,
+  "duration": 1995045500,
   "status": "passed"
 });
 formatter.scenario({
@@ -73,42 +73,42 @@ formatter.match({
   "location": "FirstTestStepsDefinitions.je_navigue_sur_le_site_chanel()"
 });
 formatter.result({
-  "duration": 26158615900,
+  "duration": 2359510700,
   "status": "passed"
 });
 formatter.match({
   "location": "FirstTestStepsDefinitions.je_verifie_si_le_site_saffiche()"
 });
 formatter.result({
-  "duration": 18539300,
+  "duration": 10498100,
   "status": "passed"
 });
 formatter.match({
   "location": "SecondTestStepsDefinitions.accèsÀLaCatégorieMakeup()"
 });
 formatter.result({
-  "duration": 164630000,
+  "duration": 110871000,
   "status": "passed"
 });
 formatter.match({
   "location": "SecondTestStepsDefinitions.jeChoisieLeCategorieLipstick()"
 });
 formatter.result({
-  "duration": 2112574999,
+  "duration": 3427187200,
   "status": "passed"
 });
 formatter.match({
   "location": "SecondTestStepsDefinitions.jeCliqueSurLeProduitROUGEALLURE()"
 });
 formatter.result({
-  "duration": 3282085100,
+  "duration": 1429534400,
   "status": "passed"
 });
 formatter.match({
   "location": "SecondTestStepsDefinitions.jAjouteLeProduitAuPanier()"
 });
 formatter.result({
-  "duration": 21811880300,
+  "duration": 4438400400,
   "status": "passed"
 });
 formatter.match({
@@ -121,7 +121,7 @@ formatter.match({
   "location": "SecondTestStepsDefinitions.verifieSiLeNomDeProduitEstDansLePanier(String)"
 });
 formatter.result({
-  "duration": 118401299,
+  "duration": 3051723100,
   "status": "passed"
 });
 formatter.match({
@@ -134,7 +134,7 @@ formatter.match({
   "location": "SecondTestStepsDefinitions.verifieLaQuantitéDeProduitEstEgal(String)"
 });
 formatter.result({
-  "duration": 3091022900,
+  "duration": 160116700,
   "status": "passed"
 });
 formatter.match({
@@ -147,11 +147,11 @@ formatter.match({
   "location": "SecondTestStepsDefinitions.verifieLeTotalPanierEstÉgalAuPrixDuProduit(String)"
 });
 formatter.result({
-  "duration": 100451399,
+  "duration": 36687900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 10539500,
+  "duration": 1325866900,
   "status": "passed"
 });
 });

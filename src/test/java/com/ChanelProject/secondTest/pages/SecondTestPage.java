@@ -20,13 +20,13 @@ public class SecondTestPage {
 	}
 
 final static String MAKEUP_CATEGORY = "makeup";
-final static String LIPSTICK = "//header/div[1]/div[1]/div[2]/nav[1]/ul[2]/li[3]/div[1]/div[1]/div[2]/div[4]/div[2]/ul[1]/li[1]/a[1]";
-final static String ROUGE_ALLURE = "//body/main[@id='main']/div[3]/div[2]/div[2]/div[1]/div[2]/div[1]/div[6]/article[1]/div[2]/div[1]/p[1]/a[1]/span[2]";
+final static String LIPSTICK = "//a[@data-linkname=\"Lipstick\"]";
+final static String ROUGE_ALLURE = "//a[@href=\"/us/makeup/p/151107/rouge-allure-luminous-intense-lip-colour/\"]";
 final static String ADD_TO_BAG_BUTTON = "pos-cnc-btn";
 final static String REVIEW_BAG_BUTTON = "//span[@data-test=\"btnReviewBagAndContinue\"]";
 final static String QUANTITY= "prd0";
 final static String TOTAL_PRICE  = "//tbody/tr[4]/td[1]";
-final static String ROUGE_ALLURE_PANIER = "//span[contains(text(),'ROUGE ALLURE')]";
+final static String ROUGE_ALLURE_PANIER = "//span[@data-test=\"lblProductTitle_151107\"]";
 
 	/* @FindBy */
 	
@@ -70,6 +70,8 @@ public void click_on_makeup_category() {
 		
 	}
 	
+
+
 	public void click_on_rouge_allure() {
 		
 		rougeAllure.click();
@@ -103,7 +105,25 @@ public void click_on_makeup_category() {
 	}
 public String check_name_product() {
 		
-		return rougeAllurePanier.getText().toUpperCase();
+		return rougeAllurePanier.getText();
 		
 	}
+
+/* Getter & Setter Method */
+
+public static WebElement getRougeAllure() {
+	return rougeAllure;
+}
+
+public static void setRougeAllure(WebElement rougeAllure) {
+	SecondTestPage.rougeAllure = rougeAllure;
+}
+
+public static WebElement getLipstik() {
+	return lipstik;
+}
+
+public static void setLipstik(WebElement lipstik) {
+	SecondTestPage.lipstik = lipstik;
+}
 }

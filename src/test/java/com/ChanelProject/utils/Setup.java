@@ -40,7 +40,7 @@ public class Setup {
 			}
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.MILLISECONDS);
-	//driver.quit();
+	driver.quit();
 		
 	}
 }

@@ -41,9 +41,11 @@ public class ChromeDriverManager extends DriverManager {
          //options.addArguments("test-type");
         //options.addArguments("--disable-extensions=true");
          //options.addArguments("--disable-notifications");
+          //options.addArguments("--headless");
           capabilities.setCapability(ChromeOptions.CAPABILITY, options);
           driver = new ChromeDriver(chService, capabilities);
           driver.manage().window().maximize();
+          
     }
 
 }
