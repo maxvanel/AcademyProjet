@@ -1,7 +1,7 @@
-@product-makup @CHA-1
 Feature: Site Chanel - Panier Rouge Allure
   ETQ utilisateur j achete le produit Rouge Allure
-
+  
+   @product-makup @CHA-1
   Scenario: Acheter Produit Rouge Allure
     Given je navigue sur le site chanel
     Then je verifie si le site saffiche
