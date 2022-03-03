@@ -6,7 +6,7 @@ Feature: Site Chanel - Produit Rouge Allure
     Given je navigue sur le site chanel
     Then je verifie si le site saffiche
     
-   @CHA-8
+   @CHA-7
   Scenario: Recherche Rouge Allure
     When Je clique sur la barre de recherche
     And Je Cherche le mot "ROUGE ALLURE"
