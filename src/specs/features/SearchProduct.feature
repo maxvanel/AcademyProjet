@@ -10,6 +10,6 @@ Feature: Site Chanel - Panier Rouge Allure
     And je Clique sur le produit ROUGE ALLURE
     And j Ajoute le produit au panier
     Then verifie si le Nom de produit "ROUGE ALLURE" est dans le panier
-    And verifie la quantité de produit  est egal "1" 
+    And verifie la quantité de produit  est egal "0" 
     And verifie le total panier est égal au prix du produit "$45.00"
     
