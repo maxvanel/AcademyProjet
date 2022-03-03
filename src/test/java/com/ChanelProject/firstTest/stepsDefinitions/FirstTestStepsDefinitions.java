@@ -98,23 +98,7 @@ public class FirstTestStepsDefinitions extends CommonMethods{
 
 	}
 	
-	@When("^Je Sélectionne le deuxième élément de la liste$")
-	public void jeSélectionneLeDeuxièmeÉlémentDeLaListe() throws Throwable {
-		commonMethods.scrollerBottomup();
-		commonMethods.explicitWait(20, FirstTestPage.secondElement);
-		logger.info("^Je Sélectionne le deuxième élément de la liste $");
-		firstTestPage.clickSecondProduct();
-
-	}
-
-
-	@Then("^jassure que le nom du produit affiché et le même que \"([^\"]*)\"\\.$")
-	public void jassure_que_le_nom_du_produit_affiché_et_le_même_que(String secondProduct) throws Throwable {
-		System.out.println(FirstTestPage.secondTitle.getText());
-		logger.info("^jassure que le nom du produit affiché et le même que \\\"([^\\\"]*)\\\"\\\\.$");
-		//Assert.assertTrue(FirstTestPage.secondTitle.getText().equals(secondProduct));
-
-	}
+	
 
 
 	
