@@ -7,6 +7,7 @@ node() {
         withMaven(maven: 'maven3.8.4') {
 		    bat	'mvn clean test'
         }
+    }
   stage('Expose report') {
         archive "**/cucumber.json"
         cucumber '**/cucumber.json'
