@@ -29,7 +29,7 @@ node() {
 				},
 				"labels":''' + labels + ''',
 				"description":"''' + description + '''",
-				"summary": "Automated Regression Execution @ ''' + env.BUILD_ID + ' ' + environment + ''' " ,
+				"summary": "Automated Regression Execution @ ''' + env.BUILD_DATE + ' ' + environment + ''' " ,
 				"issuetype": {
 				"id": "''' + testExecutionFieldId + '''"
 				},
