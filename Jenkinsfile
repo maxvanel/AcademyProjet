@@ -28,7 +28,7 @@ node() {
 				},
 				"labels":''' + labels + ''',
 				"description":"''' + description + '''",
-				"summary": "Automated Regression Execution @ ''' +${env.BUILD_ID} + ''' " ,
+				"summary": "Automated Regression Execution @ ''' + ${env.BUILD_ID} + ''' " ,
 				"issuetype": {
 				"id": "''' + testExecutionFieldId + '''"
 				},
