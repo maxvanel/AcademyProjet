@@ -1,6 +1,13 @@
 node() {
     def repoURL = 'https://github.com/Assilhizaoui/ProjectChannel.git'
-    stage('Checkout Self') {
+    stage("Prepare Workspace") {
+        cleanWs()
+        env.WORKSPACE_LOCAL = sh(returnStdout: true, script: 'pwd').trim()
+        env.BUILD_TIME = sh(returnStdout: true, script: 'date +%F-%T').trim()
+        echo "Workspace set to:" + env.WORKSPACE_LOCAL
+        echo "Build time:" + env.BUILD_TIME
+    }
+	stage('Checkout Self') {
         git branch: 'master', credentialsId: '', url: repoURL
     }
     stage('Cucumber Tests') {
@@ -28,7 +35,7 @@ node() {
 				},
 				"labels":''' + labels + ''',
 				"description":"''' + description + '''",
-				"summary": "Automated Regression Execution @ ''' + ${env.BUILD_ID} + ''' " ,
+				"summary": "Automated Regression Execution @ ''' + env.BUILD_TIME + ' ' + environment + ''' " ,
 				"issuetype": {
 				"id": "''' + testExecutionFieldId + '''"
 				},
