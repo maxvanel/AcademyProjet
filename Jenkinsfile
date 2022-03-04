@@ -46,7 +46,7 @@ node() {
 	stage('Send Email') {
         emailext attachmentsPattern: 'target/cucumber-reports/Chenel.html',
                 subject: "Channel Site Test Automation - ${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - Successful",
-                to: "assil.jenkins@gmail.com"
+                to: "assil.elhizaoui@esprit.tn"
     }
 	
 }
