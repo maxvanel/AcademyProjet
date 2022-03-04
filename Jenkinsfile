@@ -1,7 +1,7 @@
 node() {
     def repoURL = 'https://github.com/Assilhizaoui/ProjectChannel.git'
     stage("Prepare Workspace") {
-        cleanWs()
+        bat 'cleanWs()'
         env.WORKSPACE_LOCAL = sh(returnStdout: true, script: 'pwd').trim()
         env.BUILD_TIME = sh(returnStdout: true, script: 'date +%F-%T').trim()
         echo "Workspace set to:" + env.WORKSPACE_LOCAL
