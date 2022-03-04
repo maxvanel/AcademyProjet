@@ -28,7 +28,7 @@ node() {
 				},
 				"labels":''' + labels + ''',
 				"description":"''' + description + '''",
-				"summary": "Automated Regression Execution @ ''' + env.BUILD_TIME + ' ' + environment + ''' " ,
+				"summary": "Automated Regression Execution @ ''' +$BUILD_ID  + ''' " ,
 				"issuetype": {
 				"id": "''' + testExecutionFieldId + '''"
 				},
