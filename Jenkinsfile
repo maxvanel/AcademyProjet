@@ -44,7 +44,7 @@ node() {
 			step([$class: 'XrayImportBuilder', endpointName: '/cucumber/multipart', importFilePath: 'json/cucumber.json', importInfo: info, inputInfoSwitcher: 'fileContent', serverInstance: xrayConnectorId])
 		}
 	stage('Send Email') {
-        emailext attachmentsPattern: 'target\cucumber-reports\Chenel.html',
+        emailext attachmentsPattern: 'target/cucumber-reports/Chenel.html',
                 subject: "Channel Site Test Automation - ${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - Successful",
                 to: "assil.jenkins@gmail.com"
     }
